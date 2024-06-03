@@ -10,7 +10,7 @@ import feedparser  # type: ignore
 
 logger = logging.getLogger("state-gov-travel")
 
-_FEED_URL_TEMPLATE = "https://josh.github.io/us-state-travel-advisories/%s.json"
+_FEED_URL_TEMPLATE = "https://josh.github.io/us-state-travel-advisories-feeds/%s.json"
 _FEED_HOMEPAGE_URL = (
     "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/"
 )
