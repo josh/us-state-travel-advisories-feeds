@@ -45,7 +45,7 @@ class Feed(TypedDict):
     type=click.Path(writable=True, dir_okay=True, file_okay=False, path_type=Path),
     required=True,
 )
-@click.option("--combine-countries", type=str, default="")
+@click.option("--combine-countries", envvar="COMBINE_COUNTRIES", type=str, default="")
 @click.option("--verbose", "-v", is_flag=True)
 def main(
     output_dir: Path,
