@@ -32,5 +32,3 @@ jobs:
       - name: Test
         run: |
           python3 traveladvisories.py --output-dir /tmp
-        env:
-          COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}

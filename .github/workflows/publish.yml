@@ -38,6 +38,8 @@ jobs:
       - name: Generate feeds
         run: |
           python3 traveladvisories.py --output-dir public/
+        env:
+          COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}
 
       - name: Commit changes
         run: |
