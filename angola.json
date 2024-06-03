@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Angola Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/angola-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/angola.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/angola-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/angola-travel-advisory.html",
+            "title": "Angola - Level 2: Exercise Increased Caution",
+            "content_html": "<p><b><i>Reissued with updates to crime and health information.</i></b></p>\n<p>Exercise increased caution in Angola due to <b>crime</b> and <b>health</b>. Some areas have increased risk. Read the entire Travel Advisory.</p>\n<p>Violent crime, such as armed robbery, assault, carjacking, and homicide, is common. Local police lack the resources to respond effectively to serious criminal incidents.</p>\n<p>Health facilities are under resourced and may not have adequate facilities or supplies of basic vaccines or medications, especially outside of large cities.&nbsp; Always travel with required medicines; most medicine is unavailable, and healthcare is inconsistent.&nbsp;&nbsp;</p>\n<p>Read the <a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Angola.html\">country information page</a> for additional information on travel to Angola.</p>\n<p>If you decide to travel to Angola:</p>\n<ul>\n<li>Review <a href=\"https://wwwnc.cdc.gov/travel/destinations/traveler/none/angola\">CDC&#8217;s Travelers&#8217; Health Angola</a>.&nbsp;</li>\n<li>Do not physically resist any robbery attempt.</li>\n<li>Use caution when walking or driving at night.</li>\n<li>Keep a low profile.</li>\n<li>Enroll in the <a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program </a>(<a href=\"https://step.state.gov/step/\">STEP</a>) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on <a href=\"http://www.facebook.com/travelgov\">Facebook </a>&nbsp;and <a href=\"http://www.twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the <a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a> for Angola.</li>\n<li>Prepare a contingency plan for emergency situations. Review the <a href=\"https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html\">Traveler&#8217;s Checklist</a></li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-24T00:00:00+00:00"
+        }
+    ]
+}

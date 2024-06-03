@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Samoa Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/samoa-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/samoa.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/samoa-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/samoa-travel-advisory.html",
+            "title": "Samoa - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b><i>Reissued with obsolete COVID-19 page links removed</i></b></p>\n<p>Exercise normal precautions in Samoa.</p>\n<p>Read the <a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Samoa.html#/\">country information page</a> for additional information on travel to Samoa.</p>\n<p>If you decide to travel to Samoa:</p>\n<ul>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program (STEP)</a>&nbsp;to receive Alerts and make it easier to locate you in an emergency.&nbsp;&nbsp;&nbsp;</li>\n<li>Follow the Department of State on&nbsp;<a href=\"http://www.facebook.com/travelgov\">Facebook</a>&nbsp;and&nbsp;<a href=\"http://www.twitter.com/travelgov\">Twitter</a>.&nbsp;&nbsp;&nbsp;</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Samoa.&nbsp;&nbsp;&nbsp;</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/destinations/list\" title=\"cdc.gov\">Travel Health Information</a> related to your travel.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.&nbsp;&nbsp;</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-24T00:00:00+00:00"
+        }
+    ]
+}

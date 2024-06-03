@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Zimbabwe Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/zimbabwe-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/zimbabwe.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/zimbabwe-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/zimbabwe-travel-advisory.html",
+            "title": "Zimbabwe - Level 2: Exercise Increased Caution",
+            "content_html": "<p><b>Reissued after periodic review with updates to crime and civil unrest information.</b></p>\n<p>Exercise increased caution in Zimbabwe due to<b>&nbsp;crime and official harassment of U.S. citizens.&nbsp;</b></p>\n<p><b>Country Summary</b>:&nbsp;Opportunistic crime, such as pickpocketing, theft, and smashing of car windows with intent to steal, is common. Violent crime, such as assault, carjacking, and home invasion, also occurs. Criminals often target foreigners and residents suspected of having large sums of cash.</p>\n<p>Demonstrations may occur and increase in frequency around political events, such as elections. Large gatherings are often restricted by the government and can quickly escalate to violence.</p>\n<p>Foreigners, journalists, and non-governmental organizations may be subject to heightened scrutiny in Zimbabwe.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Zimbabwe.html\">country information page</a>&nbsp;for additional information on travel to Zimbabwe.</p>\n<p>If you decide to travel to Zimbabwe:</p>\n<ul>\n<li>Stay alert and avoid openly displaying cash.</li>\n<li>Carry a copy of your passport and visa and leave originals in your hotel safe.</li>\n<li>Stay away from political rallies, demonstrations, and crowds.</li>\n<li>Monitor local media for breaking events and be prepared to adjust your plans.</li>\n<li>Keep travel documents up to date and easily accessible.</li>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a>&nbsp;(STEP) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on<a href=\"https://www.facebook.com/travelgov\">&nbsp;Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Zimbabwe.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-06-27T00:00:00+00:00"
+        }
+    ]
+}

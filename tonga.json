@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Tonga Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tonga-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/tonga.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tonga-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tonga-travel-advisory.html",
+            "title": "Tonga - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b><i>Reissued with obsolete COVID-19 page links removed.</i></b></p>\n<p>Exercise normal precautions in Tonga. Read the Country Information page.</p>\n<p>If you decide to travel to Tonga:</p>\n<ul>\n<li>Enroll in the&#8239;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program (STEP)</a>&#8239;to receive Alerts and make it easier to locate you in an emergency.&#8239;&nbsp;</li>\n<li>Follow the Department of State on&#8239;<a href=\"https://travel.state.gov/_res/rss/TAsTWs.xml#ExternalPopup\">Facebook</a>&#8239;and&#8239;<a href=\"https://travel.state.gov/_res/rss/TAsTWs.xml#ExternalPopup\">Twitter</a>.&#8239;</li>\n<li>Review the&#8239;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&#8239;for Tonga.&#8239;</li>\n<li>U.S. citizens who travel abroad should always have a contingency plan for emergency situations. Review the <a href=\"https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Obey all instructions from local authorities.</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/notices\">Travel Health Notice</a> related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-24T00:00:00+00:00"
+        }
+    ]
+}

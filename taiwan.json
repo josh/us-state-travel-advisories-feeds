@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Taiwan Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/taiwan-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/taiwan.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/taiwan-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/taiwan-travel-advisory.html",
+            "title": "Taiwan - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b><i>Reissued after periodic review with minor edits.</i></b></p>\n<p>Exercise normal precautions in Taiwan.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Taiwan.html\">Taiwan International Travel Information</a>&nbsp;page for additional information on travel to Taiwan.</p>\n<p>If you decide to travel to Taiwan:</p>\n<ul>\n<li>Follow the U.S. Department of State on&nbsp;<a href=\"https://www.facebook.com/travelgov/\">Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/TravelGov\">Twitter</a>.</li>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program (STEP)</a>&nbsp;to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Report/a226918f-511c-4549-971b-1ccf3f047af2\">security report for Taiwan</a>&nbsp;from the Overseas Security Advisory Council.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the U.S. Centers for Disease Control and Prevention (CDC) page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-11T00:00:00+00:00"
+        }
+    ]
+}

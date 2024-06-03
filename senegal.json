@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Senegal Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/senegal-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/senegal.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/senegal-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/senegal-travel-advisory.html",
+            "title": "Senegal - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b><i>Reissued with obsolete COVID-19 page links removed.</i></b>&nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p>Exercise normal precautions in Senegal. Some areas have increased risk. &nbsp;Read the entire Travel Advisory.</p>\n<p>Exercise Increased Caution in:</p>\n<ul>\n<li>The Casamance region due to <b>crime </b>and<b> landmines</b>.</li>\n</ul>\n<p>Read the <a href=\"https://travel.state.gov/content/passports/en/country/senegal.html\">country information page</a> for additional information on travel to Senegal.</p>\n<p>If you decide to travel to Senegal:&nbsp;</p>\n<ul>\n<li>Do not stray from main roads and well-traveled areas in the Casamance region.</li>\n<li>Enroll in the <a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a> (<a href=\"https://step.state.gov/step/\">STEP</a>) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on <a href=\"https://www.facebook.com/travelgov/\">Facebook</a> and <a href=\"https://twitter.com/TravelGov\">Twitter</a>.</li>\n<li>Review the <a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a> for Senegal.</li>\n<li>Prepare a contingency plan for emergency situations. &nbsp;Review the <a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a> related to your travel.</li>\n</ul>\n<p><b>Casamance Region &#8211; Level 2: Exercise Increased Caution<br />\n</b>There are sporadic reports of armed banditry in the Casamance region.</p>\n<p>Landmines from prior conflicts remain a concern in the region.</p>\n<p>The U.S. government has limited ability to provide emergency services to U.S. citizens in the Casamance region. U.S. government employees are required to coordinate all travel to the area with security officials and any travel off the main routes generally requires additional security measures (e.g. driving in a caravan of multiple vehicles, consulting local security officials, or carrying personal travel locaters). U.S. government employees are also prohibited from travelling after dark anywhere in the Casamance region.</p>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-31T00:00:00+00:00"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Tuvalu Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tuvalu-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/tuvalu.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tuvalu-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/tuvalu-travel-advisory.html",
+            "title": "Tuvalu - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b><i>Reissued with updates to health information and Travel Advisory Level.</i></b></p>\n<p>Exercise normal precautions in&nbsp;Tuvalu.&nbsp;</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Tuvalu.html\">country information page</a>&nbsp;for additional information on travel to Tuvalu.</p>\n<p>Commercial transportation to/from Tuvalu is sporadically available.&#8239;</p>\n<p>If you decide to travel to Tuvalu:&#8239;&nbsp;</p>\n<ul>\n<li>Enroll in the&#8239;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program (STEP)</a>&#8239;to receive Alerts and make it easier to locate you in an emergency.&#8239;&#8239;&#8239;&nbsp;</li>\n<li>Follow the Department of State on <a href=\"https://www.facebook.com/travelgov/\">Facebook</a> and <a href=\"https://twitter.com/TravelGov\">Twitter</a>.&nbsp;&nbsp;</li>\n<li>Review the&#8239;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&#8239;for Tuvalu.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel. &#8239;&#8239;&nbsp;</li>\n<li>Prepare a contingency plan for emergency situations. Review the&#8239;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.&#8239;&#8239;&#8239;&#8239;&nbsp;</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-08-09T00:00:00+00:00"
+        }
+    ]
+}

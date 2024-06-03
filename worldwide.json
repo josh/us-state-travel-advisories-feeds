@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Worldwide Caution Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/worldwide-caution.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/worldwide.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/worldwide-caution.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/worldwide-caution.html",
+            "title": "Worldwide Caution - Caution",
+            "content_html": "<p><b>Location:</b> Worldwide</p>\n<p><b>Event:</b> Due to the potential for terrorist attacks, demonstrations, or violent actions against U.S. citizens and interests, the Department of State advises U.S. citizens overseas to exercise increased caution.&nbsp; The Department of State is aware of the increased potential for foreign terrorist organization-inspired violence against LGBTQI+ persons and events and advises U.S. citizens overseas to exercise increased caution.&nbsp; U.S. citizens should:</p>\n<ul>\n<li>Stay alert in locations frequented by tourists, including Pride celebrations and venues frequented by LGBTQI+ persons.</li>\n<li>Enroll in the <a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program (STEP)</a> to receive information and alerts and make it easier to locate you in an emergency overseas.</li>\n<li>Follow the Department of State on <a href=\"https://www.facebook.com/travelgov\" title=\"facebook.com\">Facebook</a> and <a href=\"https://twitter.com/TravelGov\" title=\"twitter.com\">Twitter</a>. <a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SaudiArabia.html#ExternalPopup\"></a><a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SaudiArabia.html#ExternalPopup\"></a></li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2024-05-17T00:00:00+00:00"
+        }
+    ]
+}

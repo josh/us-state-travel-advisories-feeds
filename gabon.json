@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Gabon Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/gabon-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/gabon.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/gabon-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/gabon-travel-advisory.html",
+            "title": "Gabon - Level 2: Exercise Increased Caution",
+            "content_html": "<p><b><i>Updated travel advisory level due to civil unrest.</i></b></p>\n<p>Exercise increased caution in Gabon due to civil unrest. Some areas have increased risk. Read the entire travel advisory.</p>\n<p>Exercise Increased Caution in:</p>\n<ul>\n<li>Libreville and Port Gentil due to crime, which can include robbery, vehicle break-ins, and residential burglaries.</li>\n</ul>\n<p>There is an increased military presence throughout Libreville and other areas of Gabon. Demonstrations may occur with little or no warning. A nighttime curfew is in effect and U.S. citizens should confirm and follow instructions of local authorities. &nbsp;&nbsp;&nbsp;</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/country/gabon.html\">country information page</a>&nbsp;for additional information about travel to Gabon.</p>\n<p>If you decide to travel to Gabon:</p>\n<ul>\n<li>Respect the curfew.</li>\n<li>Avoid demonstrations and crowds.</li>\n<li>Monitor local media for breaking events and be prepared to adjust your plans.</li>\n<li>Keep travel documents up to date and easily accessible.</li>\n<li>Have evacuation plans that do not rely on U.S. government assistance.</li>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a>&nbsp;(<a href=\"https://step.state.gov/step/\">STEP</a>) to receive security messages and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"https://www.facebook.com/travelgov/\">Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/StateDept?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">Twitter</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Gabon.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-09-28T00:00:00+00:00"
+        }
+    ]
+}

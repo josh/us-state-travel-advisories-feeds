@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Comoros Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/comoros-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/comoros.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/comoros-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/comoros-travel-advisory.html",
+            "title": "Comoros - Level 2: Exercise Increased Caution",
+            "content_html": "<p><b>Updated to reflect information on election-related civil unrest.&nbsp;</b></p>\n<p>Exercise increase caution in Comoros due to <b>crime and civil unrest.</b>&nbsp;</p>\n<p>Protests occur spontaneously in Comoros and are typically motivated by political factors.&nbsp;&nbsp;</p>\n<p>Most protests occur in Moroni, and some have turned violent.&nbsp; Protesters have also engaged in the destruction of property.&nbsp;&nbsp;</p>\n<p>The U.S. Government requires its personnel to obtain prior approval for travel to Comoros, and special permission is also required for U.S. officials to travel by boat or air between any of the country&#8217;s three islands.&nbsp; The U.S. embassy in Antananarivo, Madagascar has no ability to provide emergency consular services to U.S. citizens in Comoros.&nbsp; &nbsp;&nbsp;</p>\n<p>Read the <a href=\"https://travel.state.gov/content/passports/en/country/comoros.html\">country information page</a> for additional information on travel to Comoros.</p>\n<p>If you decide to travel to Comoros:&nbsp;&nbsp;</p>\n<ul>\n<li>Enroll in the <a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a> (<a href=\"https://step.state.gov/step/\">STEP</a>) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Avoid demonstrations and crowds.</li>\n<li>Monitor local media for breaking events and be prepared to adjust your plans.</li>\n<li>Have evacuation plans that do not rely on U.S. government assistance.</li>\n<li>Keep a low profile.</li>\n<li>Be aware of your surroundings.</li>\n<li>Follow the Department of State on <a href=\"https://www.facebook.com/USComoros/\">Facebook</a> and <a href=\"https://x.com/uscomoros?lang=en\">Twitter</a>/X.</li>\n<li>Review the <a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a> for Comoros.</li>\n<li>Prepare a contingency plan for emergency situations.&nbsp; Review the <a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/\">Travel Health Information</a> related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2024-05-28T00:00:00+00:00"
+        }
+    ]
+}

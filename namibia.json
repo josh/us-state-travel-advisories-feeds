@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Namibia Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/namibia-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/namibia.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/namibia-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/namibia-travel-advisory.html",
+            "title": "Namibia - Level 2: Exercise Increased Caution",
+            "content_html": "<p><b>Last Update: Reissued with updates to crime.</b></p>\n<p>Exercise increased caution in Namibia due to <b>crime</b>.</p>\n<p><b>Country Summary</b>:<b> </b>Petty crime, such as pickpocketing, purse snatching, and &quot;smash-and-grab&quot; attacks on vehicles, is increasingly common, and these can violently escalate into robberies and muggings. There is a higher risk of crime in the central business districts of major cities after dark.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/country/namibia.html\">country information page</a>&nbsp;for additional information on travel to Namibia.</p>\n<p>If you decide to travel to Namibia:</p>\n<ul>\n<li>Avoid walking alone, especially after dark.</li>\n<li>Do not display large amounts of cash or other valuables.</li>\n<li>Keep car doors locked and windows shut at all times.</li>\n<li>Be cautious of people appearing to request assistance by the side of the road.</li>\n<li>Use ATMs located in well-lit public places or inside a bank or other business and be cautious of anyone offering assistance in using the ATM.</li>\n<li>Always carry a copy of your U.S. passport and Namibian visa or entry stamp (if applicable). Keep original documents in a secure location.</li>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a>&nbsp;(<a href=\"https://step.state.gov/step/\">STEP</a>) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"https://www.facebook.com/travelgov\">Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/travelgov\">X</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Namibia.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a></li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-11-27T00:00:00+00:00"
+        }
+    ]
+}

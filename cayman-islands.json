@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "U.S. Department of State - Cayman Islands Travel Advisories",
+    "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cayman-islands-travel-advisory.html",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories/cayman-islands.json",
+    "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
+    "items": [
+        {
+            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cayman-islands-travel-advisory.html",
+            "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cayman-islands-travel-advisory.html",
+            "title": "Cayman Islands - Level 1: Exercise Normal Precautions",
+            "content_html": "<p><b>Reissued with obsolete COVID-19 page links removed.</b></p>\n<p>Exercise normal precautions in the Cayman Islands.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/CaymanIslands.html\">country information page</a>&nbsp;for additional information on travel to the Cayman</p>\n<p>If you decide to travel to the Cayman Islands:</p>\n<ul>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/\">Smart Traveler Enrollment Program (STEP)</a>&nbsp;to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"https://www.facebook.com/travelgov\">Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for the Cayman Islands</li>\n<li>Prepare a contingency plan for emergency situations.&nbsp; Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
+            "date_published": "1789-07-27T00:00:00+00:00",
+            "date_modified": "2023-07-17T00:00:00+00:00"
+        }
+    ]
+}
