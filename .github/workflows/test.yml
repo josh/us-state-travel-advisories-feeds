@@ -30,4 +30,5 @@ jobs:
             cache-
 
       - name: Test
-        run: python3 traveladvisories.py --output-dir /tmp
+        run: |
+          python3 traveladvisories.py --output-dir /tmp
