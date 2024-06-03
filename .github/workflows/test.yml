@@ -1,0 +1,33 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pipx install uv
+
+      - name: Install dependencies
+        run: |
+          uv pip install --system --requirement requirements.txt
+
+      - name: Load cache
+        uses: actions/cache@v4
+        with:
+          path: cache.pickle
+          key: cache-${{ github.run_id }}
+          restore-keys: |
+            cache-
+
+      - name: Test
+        run: python3 traveladvisories.py --output-dir /tmp
