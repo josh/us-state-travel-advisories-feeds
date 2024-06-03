@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - Andorra Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/andorra-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/andorra.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/andorra.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {

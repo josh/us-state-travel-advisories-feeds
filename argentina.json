@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - Argentina Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/argentina-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/argentina.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/argentina.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {

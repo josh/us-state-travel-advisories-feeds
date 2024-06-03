@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - Cote d Ivoire Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cote-d-ivoire-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/cote-d-ivoire.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/cote-d-ivoire.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {

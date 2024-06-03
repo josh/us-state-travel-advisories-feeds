@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - Laos Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/laos-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/laos.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/laos.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {

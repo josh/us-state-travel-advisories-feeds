@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - French Polynesia Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/french-polynesia-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/french-polynesia.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/french-polynesia.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {

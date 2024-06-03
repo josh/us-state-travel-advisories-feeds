@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "U.S. Department of State - The Gambia Travel Advisories",
     "home_page_url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/the-gambia-travel-advisory.html",
-    "feed_url": "https://josh.github.io/us-state-travel-advisories/the-gambia.json",
+    "feed_url": "https://josh.github.io/us-state-travel-advisories-feeds/the-gambia.json",
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
