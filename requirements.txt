@@ -24,7 +24,7 @@ sgmllib3k==1.0.0
     # via feedparser
 types-requests==2.32.0.20240622
     # via us-state-travel-advisories (pyproject.toml)
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via mypy
 urllib3==2.2.2
     # via
