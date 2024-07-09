@@ -1,6 +1,7 @@
 import json
 import logging
 import re
+import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal, TypedDict
@@ -75,6 +76,9 @@ def main(
             continue
 
         title = entry["title"]
+        if "See Individual Summaries" in title:
+            title = _get_html_title(entry["link"])
+
         published_datetime = datetime(*entry["published_parsed"][:6]).replace(
             tzinfo=UTC
         )
@@ -116,6 +120,14 @@ def main(
         feed = _feed(country="Combined", slug="combined", items=combine_items)
         output_path = output_dir / "combined.json"
         json.dump(feed, output_path.open("w"), indent=4)
+
+
+def _get_html_title(url: str) -> str | None:
+    with urllib.request.urlopen(url) as response:
+        html = response.read().decode("utf-8")
+        if m := re.search(r"<title>(.*?)</title>", html):
+            return m[1].strip()
+    return None
 
 
 def _feed(
