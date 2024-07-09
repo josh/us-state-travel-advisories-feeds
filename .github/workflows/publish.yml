@@ -43,8 +43,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name 'GitHub Actions'
-          git config user.email 'actions@users.noreply.github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit --message "Update feeds" || true
         working-directory: public/
