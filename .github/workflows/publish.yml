@@ -42,13 +42,19 @@ jobs:
           COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}
 
       - name: Commit changes
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit --message "Update feeds" || true
+          if git commit --message "Update feeds"; then
+              echo "committed=true" >>"$GITHUB_OUTPUT"
+          else
+              echo "committed=false" >>"$GITHUB_OUTPUT"
+          fi
         working-directory: public/
 
       - name: Push changes
+        if: steps.commit.outputs.committed == 'true'
         run: git push origin refs/heads/gh-pages
         working-directory: public/
