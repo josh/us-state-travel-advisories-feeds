@@ -3,7 +3,7 @@ name = "us-state-travel-advisories-feeds"
 description = "JSON feeds for U.S. Department of State Travel Advisories"
 readme = "README.md"
 authors = [{name = "Joshua Peek"}]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "click>=8.1.1,<9.0",
     "feedparser>=6.0.0,<7.0",
