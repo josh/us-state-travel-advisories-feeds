@@ -17,7 +17,6 @@ _FEED_HOMEPAGE_URL = (
 _FEED_ICON_URL = (
     "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg"
 )
-_DATE_PUBLISHED: datetime = datetime(1789, 7, 27, 0, 0, 0, tzinfo=UTC)
 
 
 class FeedItem(TypedDict):
@@ -77,15 +76,18 @@ def main(
             continue
 
         title = entry["title"]
-        modified_datetime = datetime(*entry["published_parsed"][:6]).replace(tzinfo=UTC)
+        published_datetime = datetime(*entry["published_parsed"][:6]).replace(
+            tzinfo=UTC
+        )
+        published_timestamp: int = int(published_datetime.timestamp())
+        guid = f"{slug}-{published_timestamp}"
 
         item: FeedItem = {
-            "id": entry["link"],
+            "id": guid,
             "url": entry["link"],
             "title": title,
             "content_html": entry["summary"],
-            "date_published": _DATE_PUBLISHED.isoformat(),
-            "date_modified": modified_datetime.isoformat(),
+            "date_published": published_datetime.isoformat(),
         }
         items[slug] = item
 
