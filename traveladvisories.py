@@ -25,7 +25,6 @@ class FeedItem(TypedDict):
     title: str
     content_html: str
     date_published: str
-    date_modified: str
 
 
 class Feed(TypedDict):
@@ -41,7 +40,8 @@ class Feed(TypedDict):
 @click.option(
     "--output-dir",
     envvar="OUTPUT_DIR",
-    type=click.Path(writable=True, dir_okay=True, file_okay=False, path_type=Path),
+    type=click.Path(writable=True, dir_okay=True,
+                    file_okay=False, path_type=Path),
     required=True,
 )
 @click.option("--combine-countries", envvar="COMBINE_COUNTRIES", type=str, default="")
@@ -113,7 +113,8 @@ def main(
                 logger.warning("'%s' not found", slug)
                 continue
             combine_items.append(items[slug])
-        combine_items.sort(key=lambda item: item["date_modified"], reverse=True)
+        combine_items.sort(
+            key=lambda item: item["date_published"], reverse=True)
         feed = _feed(country="Combined", slug="combined", items=combine_items)
         output_path = output_dir / "combined.json"
         json.dump(feed, output_path.open("w"), indent=4)
