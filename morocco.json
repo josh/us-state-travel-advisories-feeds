@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/morocco-travel-advisory.html",
+            "id": "morocco-1689206400",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/morocco-travel-advisory.html",
             "title": "Morocco - Level 2: Exercise Increased Caution",
             "content_html": "<p><b><i>Reissued with obsolete COVID-19 page links removed.</i></b><i></i></p>\n<p>Exercise increased caution in Morocco due to&nbsp;<b>terrorism</b>.</p>\n<p><b>Country Summary</b>: Terrorist groups continue plotting possible attacks in Morocco. Terrorists may attack with little or no warning, targeting tourist locations, transportation hubs, markets/shopping malls, and local government facilities.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Morocco.html\">country information page</a>&nbsp;for additional information on travel to Morocco.</p>\n<p>If you decide to travel to Morocco:</p>\n<ul>\n<li>Stay alert in locations frequented by tourists.</li>\n<li>Avoid demonstrations and crowds.</li>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/\">Smart Traveler Enrollment Program (STEP)</a>&nbsp;to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"https://twitter.com/TravelGov\">Twitter</a>&nbsp;and&nbsp;<a href=\"https://www.facebook.com/travelgov/\">Facebook</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Morocco.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n</ul>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2023-07-13T00:00:00+00:00"
+            "date_published": "2023-07-13T00:00:00+00:00"
         }
     ]
 }

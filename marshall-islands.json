@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/marshall-islands-travel-advisory.html",
+            "id": "marshall-islands-1716854400",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/marshall-islands-travel-advisory.html",
             "title": "Marshall Islands - Level 1: Exercise Normal Precautions",
             "content_html": "<p><b><i>Reissued after periodic review without changes.</i></b></p>\n<p>Exercise normal precautions in the Marshall Islands.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/MarshallIslands.html\">country information page</a>&nbsp;for additional information on travel to Marshall Islands.</p>\n<p>If you decide to travel to Marshall Islands:</p>\n<ul>\n<li>Enroll in the&nbsp;<a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a>&nbsp;(<a href=\"https://step.state.gov/step/\">STEP</a>) to receive security messages and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"https://www.facebook.com/travelgov/\">Facebook</a>&nbsp;and&nbsp;<a href=\"https://twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Report/2834dfbe-154a-46ed-a0be-1cbd178e8f17\">Country Security Report</a>&nbsp;for the Marshall Islands.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.&nbsp;</li>\n<li>Prepare a contingency plan for emergency situations. Review the&#8239;<a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.&#8239;&#8239;&#8239;&#8239;</li>\n</ul>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2024-05-28T00:00:00+00:00"
+            "date_published": "2024-05-28T00:00:00+00:00"
         }
     ]
 }

@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/curacao-travel-advisory.html",
+            "id": "curacao-1689552000",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/curacao-travel-advisory.html",
             "title": "Cura\u00e7ao - Level 1: Exercise Normal Precautions",
             "content_html": "<p><b>Reissued with obsolete COVID-19 page links removed.</b></p>\n<p>Exercise normal precautions in Cura&#231;ao.</p>\n<p>Read the <a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Curacao.html\">country information page</a> for additional information on travel to Cura&#231;ao.</p>\n<p>If you decide to travel to Curacao:</p>\n<ul>\n<li>Enroll in the <a href=\"https://step.state.gov/\">Smart Traveler Enrollment Program (STEP)</a> to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on <a href=\"http://facebook.com/travelgov\">Facebook</a> and <a href=\"http://twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the <a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a> for Curacao.</li>\n<li>Prepare a contingency plan for emergency situations.&nbsp; Review the <a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a> related to your travel.&nbsp;</li>\n</ul>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2023-07-17T00:00:00+00:00"
+            "date_published": "2023-07-17T00:00:00+00:00"
         }
     ]
 }

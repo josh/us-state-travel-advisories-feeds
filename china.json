@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/china-travel-advisory.html",
+            "id": "china-1712880000",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/china-travel-advisory.html",
             "title": "Mainland China, Hong Kong & Macau - See Summaries - Level 3: Reconsider Travel",
             "content_html": "<p><b><i>Updated due to new national security legislation in the Hong Kong Special Administrative Region.</i></b></p>\n<p><b>Summary:&nbsp;</b>Reconsider travel to Mainland China due to the <b>arbitrary enforcement of local laws, including in relation to exit bans,</b> and the <b>risk of wrongful detentions.</b></p>\n<p>Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the <b>arbitrary enforcement of local laws</b>.</p>\n<p>Reconsider travel to the Macau Special Administrative Region (SAR) due to a <b>limited ability to provide emergency consular services</b>.<b> </b>Exercise increased caution when traveling to the Macau SAR due to the<b> arbitrary enforcement of local laws</b>.</p>\n<p>See specific risks and conditions in each jurisdiction<i>.&nbsp;</i></p>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2024-04-12T00:00:00+00:00"
+            "date_published": "2024-04-12T00:00:00+00:00"
         }
     ]
 }

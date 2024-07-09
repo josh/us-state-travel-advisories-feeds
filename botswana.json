@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/botswana-travel-advisory.html",
+            "id": "botswana-1708905600",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/botswana-travel-advisory.html",
             "title": "Botswana - Level 2: Exercise Increased Caution",
             "content_html": "<p><b><i>Updated to include information on crime.</i></b></p>\n<p>Exercise increased caution in Botswana due to crime.</p>\n<p><b>Country Summary:</b>&nbsp;Crimes of opportunity, primarily the theft of money and personal property, are common in Botswana.&nbsp; Potentially violent crimes, such as home invasions, break-ins, &#8220;smash and grabs&#8221; from vehicles stopped at intersections and from locked cars in shopping mall parking lots, cell phone thefts, and muggings are routinely reported to police. </p>\n<p>Read the <a href=\"https://travel.state.gov/content/passports/en/country/botswana.html\">country information page</a> for additional information on travel to Botswana.</p>\n<p>If you decide to travel to Botswana:</p>\n<ul>\n<li>Enroll in the <a href=\"https://step.state.gov/step/\">Smart Traveler Enrollment Program</a> (<a href=\"https://step.state.gov/step/\">STEP</a>) to receive Alerts and make it easier to locate you in an emergency.</li>\n<li>Do not physically resist any robbery attempt.</li>\n<li>Carry a copy of your passport and visa (if applicable) and leave originals in your hotel safe.</li>\n<li>Do not display signs of wealth, such as expensive watches or jewelry.</li>\n<li>Follow the Department of State on <a href=\"https://www.facebook.com/travelgov/\">Facebook</a> and <a href=\"https://twitter.com/TravelGov\">Twitter</a>.</li>\n<li>Review the <a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a> for Botswana.</li>\n<li>Prepare a contingency plan for emergency situations. &nbsp;Review the <a href=\"https://travel.state.gov/content/passports/en/go/checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest <a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a> related to your travel.</li>\n</ul>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2024-02-26T00:00:00+00:00"
+            "date_published": "2024-02-26T00:00:00+00:00"
         }
     ]
 }

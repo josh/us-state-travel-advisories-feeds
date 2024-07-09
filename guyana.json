@@ -6,12 +6,11 @@
     "icon": "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg",
     "items": [
         {
-            "id": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guyana-travel-advisory.html",
+            "id": "guyana-1689552000",
             "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/guyana-travel-advisory.html",
             "title": "Guyana - Level 3: Reconsider Travel",
             "content_html": "<p><b><i>Reissued with obsolete COVID-19 page links removed.</i></b></p>\n<p>Reconsider travel to Guyana due to&nbsp;<b>crime</b>.</p>\n<p><b>Country Summary</b>: Violent crime, including murder and armed robbery, is common, especially at night. Local police often lack the resources to respond effectively to serious criminal incidents.</p>\n<p>Read the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Guyana.html\">country information page</a>&nbsp;for additional information on travel to Guyana.</p>\n<p>If you decide to travel to Guyana:</p>\n<ul>\n<li>Be extra vigilant when visiting banks or ATMs.</li>\n<li>Be aware of your surroundings.</li>\n<li>Avoid walking or driving at night.</li>\n<li>Do not physically resist any robbery attempt.</li>\n<li>Do not display signs of wealth, such as wearing expensive watches or jewelry.</li>\n<li>Enroll in the&nbsp;<a href=\"http://step.state.gov/\">Smart Traveler Enrollment Program (STEP)</a>&nbsp;to receive security messages and make it easier to locate you in an emergency.</li>\n<li>Follow the Department of State on&nbsp;<a href=\"http://www.facebook.com/travelgov\">Facebook</a>&nbsp;and&nbsp;<a href=\"http://www.twitter.com/travelgov\">Twitter</a>.</li>\n<li>Review the&nbsp;<a href=\"https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report\">Country Security Report</a>&nbsp;for Guyana.</li>\n<li>Prepare a contingency plan for emergency situations. Review the&nbsp;<a href=\"https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html\">Traveler&#8217;s Checklist</a>.</li>\n<li>Visit the CDC page for the latest&nbsp;<a href=\"https://wwwnc.cdc.gov/travel/destinations/list\">Travel Health Information</a>&nbsp;related to your travel.</li>\n</ul>",
-            "date_published": "1789-07-27T00:00:00+00:00",
-            "date_modified": "2023-07-17T00:00:00+00:00"
+            "date_published": "2023-07-17T00:00:00+00:00"
         }
     ]
 }
