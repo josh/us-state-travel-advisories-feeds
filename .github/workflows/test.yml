@@ -20,14 +20,6 @@ jobs:
         run: |
           uv pip install --system --requirement requirements.txt
 
-      - name: Load cache
-        uses: actions/cache@v4
-        with:
-          path: cache.pickle
-          key: cache-${{ github.run_id }}
-          restore-keys: |
-            cache-
-
       - name: Test
         run: |
           python3 traveladvisories.py --output-dir /tmp
