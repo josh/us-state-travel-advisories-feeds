@@ -5,23 +5,20 @@ on:
     - cron: "0 0 * * MON"
   workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  publish:
+  build:
+    outputs:
+      deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
+      artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
+
     runs-on: ubuntu-latest
-    concurrency: publish
 
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
-
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: "gh-pages"
-          path: "public"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,20 +37,40 @@ jobs:
         env:
           COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}
 
-      - name: Commit changes
-        id: commit
+      - name: Fetch deployed checksum
+        id: deployed-checksum
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          if git commit --message "Update feeds"; then
-              echo "committed=true" >>"$GITHUB_OUTPUT"
-          else
-              echo "committed=false" >>"$GITHUB_OUTPUT"
-          fi
+          curl -s https://josh.github.io/us-state-travel-advisories-feeds/.checksum | tee "$RUNNER_TEMP/checksum"
+          (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
+
+      - name: Compute checksum
+        id: artifact-checksum
+        run: |
+          sha256sum ./* | sort | sha256sum | awk '{print $1}' | tee "$RUNNER_TEMP/checksum"
+          (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
+          mv "$RUNNER_TEMP/checksum" .checksum
         working-directory: public/
 
-      - name: Push changes
-        if: steps.commit.outputs.committed == 'true'
-        run: git push origin refs/heads/gh-pages
-        working-directory: public/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public/
+
+  deploy:
+    needs: build
+    if: ${{ needs.build.outputs.deployed-checksum != needs.build.outputs.artifact-checksum }}
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
