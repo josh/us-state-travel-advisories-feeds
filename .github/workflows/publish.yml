@@ -40,8 +40,8 @@ jobs:
       - name: Fetch deployed checksum
         id: deployed-checksum
         run: |
-          curl -s https://josh.github.io/us-state-travel-advisories-feeds/.checksum | tee "$RUNNER_TEMP/checksum"
-          (echo -n "checksum=" ; cat "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
+          curl --silent https://josh.github.io/us-state-travel-advisories-feeds/.checksum | tee "$RUNNER_TEMP/checksum"
+          (echo -n "checksum=" ; head -n1 "$RUNNER_TEMP/checksum") >>"$GITHUB_OUTPUT"
 
       - name: Compute checksum
         id: artifact-checksum
