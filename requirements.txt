@@ -8,7 +8,7 @@ mypy==1.14.1
     # via us-state-travel-advisories-feeds (pyproject.toml)
 mypy-extensions==1.0.0
     # via mypy
-ruff==0.8.0
+ruff==0.9.1
     # via us-state-travel-advisories-feeds (pyproject.toml)
 sgmllib3k==1.0.0
     # via feedparser
