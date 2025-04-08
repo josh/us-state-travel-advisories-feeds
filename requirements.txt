@@ -12,5 +12,5 @@ ruff==0.11.0
     # via us-state-travel-advisories-feeds (pyproject.toml)
 sgmllib3k==1.0.0
     # via feedparser
-typing-extensions==4.12.2
+typing-extensions==4.13.1
     # via mypy
