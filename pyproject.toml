@@ -1,5 +1,6 @@
 [project]
 name = "us-state-travel-advisories-feeds"
+version = "0.1.0"
 description = "JSON feeds for U.S. Department of State Travel Advisories"
 readme = "README.md"
 authors = [{name = "Joshua Peek"}]
