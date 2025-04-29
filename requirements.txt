@@ -6,7 +6,7 @@ feedparser==6.0.11
     # via us-state-travel-advisories-feeds (pyproject.toml)
 mypy==1.15.0
     # via us-state-travel-advisories-feeds (pyproject.toml)
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via mypy
 ruff==0.11.0
     # via us-state-travel-advisories-feeds (pyproject.toml)
