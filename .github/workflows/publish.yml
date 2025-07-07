@@ -20,20 +20,14 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: "pyproject.toml"
-
       - uses: astral-sh/setup-uv@v6
 
       - name: Install dependencies
-        run: |
-          uv pip install --system --requirement requirements.txt
+        run: uv sync
 
       - name: Generate feeds
         run: |
-          python3 traveladvisories.py --output-dir public/
+          uv run traveladvisories --output-dir public/
         env:
           COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}
 

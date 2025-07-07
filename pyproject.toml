@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "us-state-travel-advisories-feeds"
 version = "0.1.0"
@@ -13,11 +17,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "mypy>=1.0.0,<2.0",
     "ruff>=0.3.0",
 ]
+
+[project.scripts]
+traveladvisories = "traveladvisories:main"
 
 [tool.ruff.lint]
 extend-select = ["I", "UP"]
