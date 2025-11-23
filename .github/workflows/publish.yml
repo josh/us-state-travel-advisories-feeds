@@ -14,7 +14,7 @@ jobs:
       deployed-checksum: ${{ steps.deployed-checksum.outputs.checksum }}
       artifact-checksum: ${{ steps.artifact-checksum.outputs.checksum }}
 
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     steps:
       - name: Checkout main branch
@@ -62,7 +62,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     steps:
       - name: Deploy to GitHub Pages
