@@ -1,33 +1,40 @@
 [build-system]
-requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+requires = [ "setuptools" ]
 
 [project]
 name = "us-state-travel-advisories-feeds"
 version = "0.1.0"
 description = "JSON feeds for U.S. Department of State Travel Advisories"
 readme = "README.md"
-authors = [{name = "Joshua Peek"}]
+authors = [ { name = "Joshua Peek" } ]
 requires-python = ">=3.11"
-dependencies = [
-    "click>=8.1.1,<9.0",
-    "feedparser>=6.0.0,<7.0",
-]
 classifiers = [
     "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
+
+dependencies = [
+    "click>=8.1.1,<9",
+    "feedparser>=6,<7",
+]
+scripts.traveladvisories = "traveladvisories:main"
 
 [dependency-groups]
 dev = [
-    "mypy>=1.0.0,<2.0",
-    "ruff>=0.3.0",
+    "mypy>=1,<2",
+    "ruff>=0.3",
 ]
 
-[project.scripts]
-traveladvisories = "traveladvisories:main"
+[tool.ruff]
+lint.extend-select = [ "I", "UP" ]
 
-[tool.ruff.lint]
-extend-select = ["I", "UP"]
+[tool.pyproject-fmt]
+indent = 4
 
 [tool.mypy]
 strict = true
