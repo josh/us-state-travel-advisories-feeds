@@ -7,6 +7,8 @@ name = "us-state-travel-advisories-feeds"
 version = "0.1.0"
 description = "JSON feeds for U.S. Department of State Travel Advisories"
 readme = "README.md"
+license = "MIT"
+license-files = [ "LICENSE" ]
 authors = [ { name = "Joshua Peek" } ]
 requires-python = ">=3.11"
 classifiers = [
