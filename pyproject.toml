@@ -20,14 +20,14 @@ classifiers = [
 ]
 
 dependencies = [
-    "click>=8.3.2,<9",
+    "click>=8.1.1,<9",
     "feedparser>=6,<7",
 ]
 scripts.traveladvisories = "traveladvisories:main"
 
 [dependency-groups]
 dev = [
-    "mypy>=1.20.0,<2",
+    "mypy>=1,<2",
     "ruff>=0.3,<2",
 ]
 
