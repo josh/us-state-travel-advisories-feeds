@@ -89,7 +89,7 @@ def main(
             "id": guid,
             "url": entry["link"],
             "title": title,
-            "content_html": entry["summary"],
+            "content_html": _entry_content_html(entry),
             "date_published": published_datetime.isoformat(),
         }
         items[slug] = item
@@ -120,6 +120,21 @@ def main(
         feed = _feed(country="Combined", slug="combined", items=combine_items)
         output_path = output_dir / "combined.json"
         json.dump(feed, output_path.open("w"), indent=4)
+
+
+def _entry_content_html(entry: feedparser.FeedParserDict) -> str:
+    if summary := entry.get("summary"):
+        return str(summary)
+
+    if description := entry.get("description"):
+        return str(description)
+
+    for content in entry.get("content", []):
+        if value := content.get("value"):
+            return str(value)
+
+    logger.warning("No summary found for '%s'", entry.get("link", entry.get("title")))
+    return ""
 
 
 def _get_html_title(url: str) -> str | None:
