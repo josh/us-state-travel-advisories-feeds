@@ -1,6 +1,7 @@
 import json
 import logging
 import re
+import unicodedata
 import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
@@ -59,23 +60,18 @@ def main(
     d: feedparser.FeedParserDict = feedparser.parse(url)
 
     items: dict[str, FeedItem] = {}
+    legacy_slugs = {
+        _country_name(entry["title"]): slug
+        for entry in d["entries"]
+        if (slug := _legacy_slug(entry["link"])) is not None
+    }
 
     for entry in d["entries"]:
-        link_last_path = entry["link"].split("/")[-1].lower()
-        slug = ""
-        if link_last_path == "worldwide-caution.html":
-            slug = "worldwide"
-        elif m := re.match(r"([a-z-]+)-travel-advisory\.html", link_last_path):
-            slug = m[1]
-        elif m := re.match(r"([a-z-]+)-advisory\.html", link_last_path):
-            slug = m[1]
-        elif m := re.match(r"([a-z-]+)\.html", link_last_path):
-            slug = m[1]
-        else:
-            logger.warning("Couldn't extract slug from '%s'", entry["link"])
+        if "summary" not in entry:
             continue
 
         title = entry["title"]
+        slug = legacy_slugs.get(_country_name(title), _slugify(_country_name(title)))
         if "See Individual Summaries" in title:
             title = _get_html_title(entry["link"])
 
@@ -89,7 +85,7 @@ def main(
             "id": guid,
             "url": entry["link"],
             "title": title,
-            "content_html": _entry_content_html(entry),
+            "content_html": entry["summary"],
             "date_published": published_datetime.isoformat(),
         }
         items[slug] = item
@@ -122,19 +118,29 @@ def main(
         json.dump(feed, output_path.open("w"), indent=4)
 
 
-def _entry_content_html(entry: feedparser.FeedParserDict) -> str:
-    if summary := entry.get("summary"):
-        return str(summary)
+def _legacy_slug(url: str) -> str | None:
+    link_last_path = url.split("/")[-1].lower()
+    if link_last_path == "worldwide-caution.html":
+        return "worldwide"
+    for pattern in (
+        r"([a-z-]+)-travel-advisory\.html",
+        r"([a-z-]+)-advisory\.html",
+        r"([a-z-]+)\.html",
+    ):
+        if m := re.fullmatch(pattern, link_last_path):
+            return m[1]
+    return None
 
-    if description := entry.get("description"):
-        return str(description)
 
-    for content in entry.get("content", []):
-        if value := content.get("value"):
-            return str(value)
+def _country_name(title: str) -> str:
+    return re.split(r"(?: Travel Advisory)?\s+-\s+Level ", title.replace("\xa0", " "))[
+        0
+    ].strip()
 
-    logger.warning("No summary found for '%s'", entry.get("link", entry.get("title")))
-    return ""
+
+def _slugify(country: str) -> str:
+    ascii_country = unicodedata.normalize("NFKD", country).encode("ascii", "ignore")
+    return re.sub(r"[^a-z]+", "-", ascii_country.decode().lower()).strip("-")
 
 
 def _get_html_title(url: str) -> str | None:
