@@ -75,8 +75,9 @@ def main(
         if "See Individual Summaries" in title:
             title = _get_html_title(entry["link"])
 
-        published_datetime = datetime(*entry["published_parsed"][:6]).replace(
-            tzinfo=UTC
+        year, month, day, hour, minute, second = entry["published_parsed"][:6]
+        published_datetime = datetime(
+            year, month, day, hour, minute, second, tzinfo=UTC
         )
         published_timestamp: int = int(published_datetime.timestamp())
         guid = f"{slug}-{published_timestamp}"
