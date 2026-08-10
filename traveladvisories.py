@@ -122,7 +122,7 @@ def main(
 
     if combine_countries:
         combine_items: list[FeedItem] = []
-        for slug in combine_countries.split(","):
+        for slug in dict.fromkeys(combine_countries.split(",")):
             if slug not in items:
                 logger.warning("'%s' not found", slug)
                 continue
