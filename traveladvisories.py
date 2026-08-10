@@ -19,6 +19,7 @@ _FEED_HOMEPAGE_URL = (
 _FEED_ICON_URL = (
     "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg"
 )
+_USER_AGENT = "us-state-travel-advisories-feeds/0.1 (+https://github.com/josh/us-state-travel-advisories-feeds)"
 
 
 class FeedItem(TypedDict):
@@ -57,7 +58,9 @@ def main(
 
     url = "https://travel.state.gov/_res/rss/TAsTWs.xml"
     logger.info("Fetch %s", url)
-    d: feedparser.FeedParserDict = feedparser.parse(url)
+    d: feedparser.FeedParserDict = feedparser.parse(
+        url, request_headers={"User-Agent": _USER_AGENT}
+    )
 
     items: dict[str, FeedItem] = {}
     legacy_slugs = {
@@ -145,7 +148,8 @@ def _slugify(country: str) -> str:
 
 
 def _get_html_title(url: str) -> str | None:
-    with urllib.request.urlopen(url) as response:
+    request = urllib.request.Request(url, headers={"User-Agent": _USER_AGENT})
+    with urllib.request.urlopen(request) as response:
         html = response.read().decode("utf-8")
         if m := re.search(r"<title>(.*?)</title>", html):
             return m[1].strip()
