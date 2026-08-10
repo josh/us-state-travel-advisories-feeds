@@ -2,7 +2,6 @@ import json
 import logging
 import re
 import unicodedata
-import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal, TypedDict
@@ -19,6 +18,9 @@ _FEED_HOMEPAGE_URL = (
 _FEED_ICON_URL = (
     "https://travel.state.gov/content/dam/tsg-global/tsg_link_img_display.jpg"
 )
+_COUNTRY_NAMES = {
+    "israel-west-bank-and-gaza": "Israel, the West Bank, and Gaza",
+}
 
 
 class FeedItem(TypedDict):
@@ -73,7 +75,7 @@ def main(
         title = entry["title"]
         slug = legacy_slugs.get(_country_name(title), _slugify(_country_name(title)))
         if "See Individual Summaries" in title:
-            title = _get_html_title(entry["link"])
+            title = _repair_title(title, slug)
 
         year, month, day, hour, minute, second = entry["published_parsed"][:6]
         published_datetime = datetime(
@@ -144,12 +146,10 @@ def _slugify(country: str) -> str:
     return re.sub(r"[^a-z]+", "-", ascii_country.decode().lower()).strip("-")
 
 
-def _get_html_title(url: str) -> str | None:
-    with urllib.request.urlopen(url) as response:
-        html = response.read().decode("utf-8")
-        if m := re.search(r"<title>(.*?)</title>", html):
-            return m[1].strip()
-    return None
+def _repair_title(title: str, slug: str) -> str:
+    country = _COUNTRY_NAMES.get(slug, slug.replace("-", " ").title())
+    _, separator, suffix = title.partition(" - ")
+    return f"{country}{separator}{suffix}"
 
 
 def _feed(
