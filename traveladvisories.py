@@ -5,6 +5,7 @@ import unicodedata
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal, TypedDict
+from xml.sax import SAXParseException
 
 import click
 import feedparser  # type: ignore
@@ -60,6 +61,8 @@ def main(
     url = "https://travel.state.gov/_res/rss/TAsTWs.xml"
     logger.info("Fetch %s", url)
     d: feedparser.FeedParserDict = feedparser.parse(url)
+    if isinstance(d.get("bozo_exception"), SAXParseException):
+        raise click.ClickException(f"Malformed feed: {d['bozo_exception']}")
 
     items: dict[str, FeedItem] = {}
     legacy_slugs = {
