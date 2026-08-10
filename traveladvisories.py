@@ -111,6 +111,7 @@ def main(
 
     for slug, item in items.items():
         country = item["title"].split(" - ")[0]
+        country = country.removesuffix(" Travel Advisory").strip()
         feed = _feed(
             country=country,
             slug=slug,
