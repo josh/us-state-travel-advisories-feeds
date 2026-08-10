@@ -65,11 +65,16 @@ def main(
     legacy_slugs = {
         _country_name(entry["title"]): slug
         for entry in d["entries"]
-        if (slug := _legacy_slug(entry["link"])) is not None
+        if "title" in entry
+        and (slug := _legacy_slug(entry.get("link", ""))) is not None
     }
 
     for entry in d["entries"]:
         if "summary" not in entry:
+            continue
+        if "title" not in entry or "link" not in entry:
+            continue
+        if not entry.get("published_parsed"):
             continue
 
         title = entry["title"]
