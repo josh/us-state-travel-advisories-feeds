@@ -93,6 +93,9 @@ def main(
         }
         items[slug] = item
 
+    if not items:
+        raise click.ClickException("No travel advisories found")
+
     output_dir.mkdir(parents=True, exist_ok=True)
     for output_path in output_dir.glob("*.json"):
         output_path.unlink()
