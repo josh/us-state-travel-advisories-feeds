@@ -73,9 +73,18 @@ def main(
             continue
 
         title = entry["title"]
-        slug = legacy_slugs.get(_country_name(title), _slugify(_country_name(title)))
+        link_slug = _legacy_slug(entry["link"])
+        if link_slug is not None:
+            slug = link_slug
+        else:
+            slug = legacy_slugs.get(
+                _country_name(title), _slugify(_country_name(title))
+            )
         if "See Individual Summaries" in title:
             title = _repair_title(title, slug)
+
+        if link_slug is None and slug in items:
+            continue
 
         year, month, day, hour, minute, second = entry["published_parsed"][:6]
         published_datetime = datetime(
