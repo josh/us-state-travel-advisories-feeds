@@ -4,7 +4,7 @@ requires = [ "setuptools" ]
 
 [project]
 name = "us-state-travel-advisories-feeds"
-version = "0.1.0"
+version = "0.2.0"
 description = "JSON feeds for U.S. Department of State Travel Advisories"
 readme = "README.md"
 license = "MIT"
