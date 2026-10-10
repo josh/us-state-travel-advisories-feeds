@@ -1,0 +1,34 @@
+name: Go
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-slim
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.26.8"
+
+      - name: Format
+        run: test -z "$(gofmt -l .)"
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Build
+        run: go build
+
+      - name: Test
+        run: go test -race ./...
+
+      - name: Print version
+        run: ./us-state-travel-advisories-feeds version
+
+      - name: Generate feeds
+        run: ./us-state-travel-advisories-feeds -output-dir "$RUNNER_TEMP/public"

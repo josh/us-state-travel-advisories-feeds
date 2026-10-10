@@ -20,14 +20,13 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-
-      - name: Install dependencies
-        run: uv sync
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: "1.26.8"
 
       - name: Generate feeds
         run: |
-          uv run traveladvisories --output-dir public/
+          go run . -output-dir public/
         env:
           COMBINE_COUNTRIES: ${{ vars.COMBINE_COUNTRIES }}
 
